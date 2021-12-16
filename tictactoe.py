@@ -30,12 +30,12 @@ class Board:
                 print("That space is occupied, please choose another one.")
                 self.move_player(player)
             elif (x_coordinate < 1 or y_coordinate < 1) or (x_coordinate > 3 or y_coordinate > 3):
-                print("Please only enter numbers between 1 and 3.")
+                print("Please only enter numbers between 1 and 3, separated by a space.")
                 self.move_player(player)
             else:
                 self.board[x_coordinate - 1][y_coordinate - 1] = player.player
         except (ValueError, IndexError):
-            print("Please only enter numbers between 1 and 3.")
+            print("Please only enter numbers between 1 and 3, separated by a space.")
             self.move_player(player)
 
     # Checks the win condition for three across
