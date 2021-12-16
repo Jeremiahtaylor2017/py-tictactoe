@@ -1,4 +1,4 @@
-# Create Platey class
+# Create Player class
 class Player:
     def __init__(self, player):
         self.player = player
