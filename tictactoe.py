@@ -147,7 +147,8 @@ if __name__ == '__main__':
     # Explain the rules to the player
     print("""
         Welcome to Tic Tac Toe. The goal of the game is to get three in a row against the other player. That can be
-                across, down, or diagonal. Player 1 will be X and player 2 will be O. Are you ready? y/n.
+      across, down, or diagonal. In order to place your player on the board, enter coordinates starting with "1 1" on
+        the top left and "3 3" on the bottom right. Player 1 will be X and player 2 will be O. Are you ready? y/n.
     """)
 
     # Check for if the player is ready to play the game or not
